@@ -34,8 +34,8 @@
         function switchToRandom()
         {
             let body_element = document.getElementById("body_element");
-            let random_color = Math.floor(Math.random() * 5);
-            
+           let random_color = Math.floor(Math.random() * 6);
+
             if (random_color == 0)
             {
                 body_element.style = "background-color:red";
@@ -56,7 +56,9 @@
             {
                 body_element.style = "background-color:purple";
             }
-
+else if (random_color == 5)
+{
+   body_element.style = "background-color:pink";
         }
 
         let random = document.getElementById("random");
